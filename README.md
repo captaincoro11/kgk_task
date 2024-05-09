@@ -35,3 +35,7 @@
 
 9)And at last http://localhost:<Your_Port_Number>/user/refreshtoken to generate a new token .
 
+
+
+IMPLEMENTATION:-
+I have used Node , Express , dotenv , etc. libraries to do this task . Register Route wasn't a big task so was completed easily . Same goes for login and logout page . The only new feature which I had to implement was refreshtoken page which took more time as compared to other pages . Using JWT to generate and verify the tokens and using bcrypt library for hashing the passwords for security reasons was also a good task.
